@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Complaints | NyaySahyak.com</title>
+  <header> 
+       <a href="index.html" class="logo"><img src="images/NSlogo.png" alt=""></a> 
+
+       <ul class="navmenu"> 
+         <li><a href="index.html">Home</a></li>      
+         <li><a href="about.html">AboutUs</a></li> 
+         <li><a href="ActsRights.html">Acts & Rights</a></li>             
+         <li><a href="ammends.html">Ammendments</a></li> 
+         <li><a href="complaints.html">Complaints</a></li> 
+         <li><a href="bookingdetails.html">Services</a></li> 
+         <li><a href="faq.html">FAQ's</a></li>
+
+
+
+       </ul> 
+
+       <div class="btn-icon"> 
+           <a href="signup.html" class="nav-btn">Sign Up</a> 
+           <div class="bx bx-menu" id="menu-icon"></div> 
+       </div> 
+   </header> 
+  
+</head>
+<body>
+    <div class="container">
+        <h1>File a Complaint</h1>
+        <form id="complaintForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="complaint">Complaint:</label>
+            <textarea id="complaint" name="complaint" rows="4" required></textarea>
+
+            <button type="button" onclick="submitComplaint()">Submit Complaint</button>
+        </form>
+
+        <div id="confirmation" class="confirmation" style="display: none;">
+            Thank you for filing your complaint! We will look into it.
+        </div>
+    </div>
+
+    <script>
+        function submitComplaint() {
+            // This is a simple example. You can add more validation and submission logic here.
+            document.getElementById("complaintForm").style.display = "none";
+            document.getElementById("confirmation").style.display = "block";
+        }
+    </script>
+</body>
+</html>
