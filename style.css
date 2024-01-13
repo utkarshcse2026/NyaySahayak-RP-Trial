@@ -943,7 +943,7 @@
  } 
  .footer p{ 
      color: #fff; 
-     font-size: 15px; 
+     font-size: 25px; 
      letter-spacing: 1px; 
      text-transform: capitalize; 
      font-weight: 500; 
@@ -1412,9 +1412,9 @@
  } 
  .fifth-info .icon a{ 
      color: #000; 
-     font-size: 20px; 
-     width: 35px; 
-     height: 35px; 
+     font-size: 30px; 
+     width: 40px; 
+     height: 40px; 
      border-radius: 50%; 
      border-radius: 50%; 
      background-color: #fff; 
@@ -1458,7 +1458,7 @@
  } 
  .footer p{ 
      color: #fff; 
-     font-size: 15px; 
+     font-size: 25px; 
      letter-spacing: 1px; 
      text-transform: capitalize; 
      font-weight: 500; 
